@@ -39,6 +39,7 @@ function motion(e) {
 
 		if(moveCounter > 2) {
 			console.log('SHAKE!!!');
+			document.body.insertAdjacentHTML('beforeend', 'SHAKE!!!! <br />')
 			moveCounter = 0;
 		}
 
